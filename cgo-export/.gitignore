@@ -1,1 +1,3 @@
 cgo-export
+agnostic.h
+agnostic.so
