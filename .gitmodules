@@ -1,0 +1,3 @@
+[submodule "agnostic"]
+	path = agnostic
+	url = https://github.com/JosephNaberhaus/agnostic
