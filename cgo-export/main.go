@@ -1,7 +1,13 @@
 package main
 
-import "fmt"
+import "C"
 
-func main() {
-	fmt.Println("Hello, world")
+import "github.com/JosephNaberhaus/agnostic/language/lexer"
+
+//export ParseAgnosticAST
+func ParseAgnosticAST(rawText string) string {
+	ast, _ := lexer.Test(rawText)
+	return ast.Name
 }
+
+func main() {}
